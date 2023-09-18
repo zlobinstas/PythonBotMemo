@@ -7,7 +7,7 @@ def add_markup():
     markup = types.InlineKeyboardMarkup()
     markup.add(types.InlineKeyboardButton('Sponsor this project', 'https://github.com/zlobinstas'))
     return markup
-#for using it: use reply_markup at the methods reply_to or send_message
+#for using it: use reply_markup at the methods 'reply_to' or 'send_message'
 
 bot = telebot.TeleBot('5501926269:AAFrN3-JX-kdYa5q4AYcEKg_5QIV4nNgZlc')
 
